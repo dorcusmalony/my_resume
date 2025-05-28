@@ -10,7 +10,7 @@ section {
 }
 
 #intro {
-  background: #000; /* Make the introduction section completely black */
+  background: linear-gradient(135deg, #000, #333);/* Make the introduction section completely black */
   color: #fff;
   display: flex;
   align-items: center;
@@ -38,12 +38,12 @@ section {
   font-size: 1.5rem;
 }
 
-#intro a {
-  color: #1a66b8; /* Blue color for the resume link */
+#intro a, #intro .resume-download a, footer a {
+  color: #1a66b8; /* Consistent blue color */
   text-decoration: none;
 }
 
-#intro a:hover {
+#intro a:hover, #intro .resume-download a:hover, footer a:hover {
   text-decoration: underline;
 }
 
@@ -120,11 +120,11 @@ footer a:hover {
 
 .skills-bar .skill .bar .progress {
   height: 100%;
-  background: #1a66b8; /* Blue color for skill bars */
+  background: #1a66b8; /* Consistent blue color for skill bars */
 }
 .colored-heading {
   text-decoration: underline;
-  text-decoration-color: #1a66b8; /* Blue color for the underline */
+  text-decoration-color: #1a66b8; /* Consistent blue color for underline */
   text-decoration-thickness: 2px; /* Optional: Adjust the thickness of the underline */
   color: inherit; /* Keep the text color unchanged */
 }
